@@ -1,0 +1,163 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Jul 18, 2022 at 03:14 PM
+-- Server version: 10.4.22-MariaDB
+-- PHP Version: 7.4.26
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `projepabim`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `main`
+--
+
+CREATE TABLE `main` (
+  `id` int(11) NOT NULL,
+  `npm` varchar(10) NOT NULL,
+  `nama` varchar(128) NOT NULL,
+  `smt1` int(11) NOT NULL,
+  `smt2` int(11) NOT NULL,
+  `smt3` int(11) NOT NULL,
+  `smt4` int(11) NOT NULL,
+  `smt5` int(11) NOT NULL,
+  `smt7` int(11) NOT NULL,
+  `smt8` int(11) NOT NULL,
+  `angkatan` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `main`
+--
+
+INSERT INTO `main` (`id`, `npm`, `nama`, `smt1`, `smt2`, `smt3`, `smt4`, `smt5`, `smt7`, `smt8`, `angkatan`) VALUES
+(1, '20120088', 'AJENG AYU WANDANIE', 0, 0, 0, 0, 0, 1, 0, 0),
+(2, '20120097', 'ALDI HIDAYATULLOH', 0, 0, 0, 0, 0, 1, 0, 0),
+(3, '20120142', 'ANDEN NIRBOYO', 0, 0, 0, 0, 0, 1, 0, 0),
+(4, '20120170', 'ANTHONY SAMUEL GULO', 0, 0, 0, 0, 0, 1, 0, 0),
+(5, '20120203', 'ASEP RAJIMAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(6, '20120223', 'BAGAS RIZKY ANANDA', 0, 0, 0, 0, 0, 1, 0, 0),
+(7, '20120233', 'BENEDICT TITUS MARULI S', 0, 0, 0, 0, 0, 1, 0, 0),
+(8, '20120260', 'CHANDRA SETYA ARDI WIBAWA', 0, 0, 0, 0, 0, 1, 0, 0),
+(9, '20120268', 'CLAUDIA CHRISTINE ANNA CORNELYA NDOEN', 0, 0, 0, 0, 0, 1, 0, 0),
+(10, '20120375', 'FADRI OKTAVIAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(11, '20120387', 'FAIZ RASYID RIANTO', 0, 0, 0, 0, 0, 1, 0, 0),
+(12, '20120415', 'FATHI MUTHIA TARIE', 0, 0, 0, 0, 0, 1, 0, 0),
+(13, '20120453', 'FITA KURNIAWATI', 0, 0, 0, 0, 0, 1, 0, 0),
+(14, '20120483', 'GUSTI FAJAR MAULANA', 0, 0, 0, 0, 0, 1, 0, 0),
+(15, '20120490', 'HAMANN FACHREZI', 0, 0, 0, 0, 0, 1, 0, 0),
+(16, '20120513', 'IBNU BACHTIAR', 0, 0, 0, 0, 0, 1, 0, 0),
+(17, '20120539', 'IRFAN MAULANA', 0, 0, 0, 0, 0, 1, 0, 0),
+(18, '20120578', 'KHAIDAR JULIAN ASYAR', 0, 0, 0, 0, 0, 1, 0, 0),
+(19, '20120596', 'LUKMAN NULHAKIM', 0, 0, 0, 0, 0, 1, 0, 0),
+(20, '20120645', 'MOHAMAD IQBAL ALAMSYAH', 0, 0, 0, 0, 0, 1, 0, 0),
+(21, '20120674', 'MUHAMAD RAMADHANI FITRIYANTO', 0, 0, 0, 0, 0, 1, 0, 0),
+(22, '20120692', 'MUHAMMAD ALIF DARMADI', 0, 0, 0, 0, 0, 1, 0, 0),
+(23, '20120705', 'MUHAMMAD DAFFA ANTONO', 0, 0, 0, 0, 0, 1, 0, 0),
+(24, '20120716', 'MUHAMMAD FAHREZA ABDURRAZAQ', 0, 0, 0, 0, 0, 1, 0, 0),
+(25, '20120741', 'Muhammad Haekal Khowarizmi', 0, 0, 0, 0, 0, 1, 0, 0),
+(26, '20120789', 'MUHAMMAD SALMAN ALFARIZI', 0, 0, 0, 0, 0, 1, 0, 0),
+(27, '20120808', 'MUHAMMAD ZAIDAN AL MUZTABA', 0, 0, 0, 0, 0, 1, 0, 0),
+(28, '20120870', 'NOVIANDARU ADITYA RAMADHAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(29, '20120885', 'PANGIUTAN SIRAIT', 0, 0, 0, 0, 0, 1, 0, 0),
+(30, '20120887', 'PATHURAHMAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(31, '20120897', 'PUTRI GADING CEMPAKA', 0, 0, 0, 0, 0, 1, 0, 0),
+(32, '20120910', 'RAFI AUFAR RAHMAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(33, '20120917', 'RAFIAL KAHF', 0, 0, 0, 0, 0, 1, 0, 0),
+(34, '20120925', 'RAHADIAN YAMIN', 0, 0, 0, 0, 0, 1, 0, 0),
+(35, '20120970', 'RENALDI VERNANDES ERTA', 0, 0, 0, 0, 0, 1, 0, 0),
+(36, '21120012', 'RINO INDRA WICAKSONO', 0, 0, 0, 0, 0, 1, 0, 0),
+(37, '21120033', 'RIZKY ALFIAN ZAMAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(38, '21120078', 'SATRIYO PRIAMBODO', 0, 0, 0, 0, 0, 1, 0, 0),
+(39, '21120080', 'SEBASTIAN PANDU WIRATAMA', 0, 0, 0, 0, 0, 1, 0, 0),
+(40, '21120099', 'SHOLAHUDDIN YUSUF', 0, 0, 0, 0, 0, 1, 0, 0),
+(41, '21120108', 'SRI RATU PUTRI MAHARANI', 0, 0, 0, 0, 0, 1, 0, 0),
+(42, '21120130', 'TEO MIKAEL SIMBOLON', 0, 0, 0, 0, 0, 1, 0, 0),
+(43, '21120147', 'VANEZZA ROSSA HERPRIDJIHAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(44, '21120158', 'WAHYU DWI ANANDA', 0, 0, 0, 0, 0, 1, 0, 0),
+(45, '21120161', 'WAJIHAN MUHAMMAD', 0, 0, 0, 0, 0, 1, 0, 0),
+(46, '20120088', 'AJENG AYU WANDANIE', 0, 0, 0, 0, 0, 1, 0, 0),
+(47, '20120097', 'ALDI HIDAYATULLOH', 0, 0, 0, 0, 0, 1, 0, 0),
+(48, '20120142', 'ANDEN NIRBOYO', 0, 0, 0, 0, 0, 1, 0, 0),
+(49, '20120170', 'ANTHONY SAMUEL GULO', 0, 0, 0, 0, 0, 1, 0, 0),
+(50, '20120203', 'ASEP RAJIMAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(51, '20120223', 'BAGAS RIZKY ANANDA', 0, 0, 0, 0, 0, 1, 0, 0),
+(52, '20120233', 'BENEDICT TITUS MARULI S', 0, 0, 0, 0, 0, 1, 0, 0),
+(53, '20120260', 'CHANDRA SETYA ARDI WIBAWA', 0, 0, 0, 0, 0, 1, 0, 0),
+(54, '20120268', 'CLAUDIA CHRISTINE ANNA CORNELYA NDOEN', 0, 0, 0, 0, 0, 1, 0, 0),
+(55, '20120375', 'FADRI OKTAVIAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(56, '20120387', 'FAIZ RASYID RIANTO', 0, 0, 0, 0, 0, 1, 0, 0),
+(57, '20120415', 'FATHI MUTHIA TARIE', 0, 0, 0, 0, 0, 1, 0, 0),
+(58, '20120453', 'FITA KURNIAWATI', 0, 0, 0, 0, 0, 1, 0, 0),
+(59, '20120483', 'GUSTI FAJAR MAULANA', 0, 0, 0, 0, 0, 1, 0, 0),
+(60, '20120490', 'HAMANN FACHREZI', 0, 0, 0, 0, 0, 1, 0, 0),
+(61, '20120513', 'IBNU BACHTIAR', 0, 0, 0, 0, 0, 1, 0, 0),
+(62, '20120539', 'IRFAN MAULANA', 0, 0, 0, 0, 0, 1, 0, 0),
+(63, '20120578', 'KHAIDAR JULIAN ASYAR', 0, 0, 0, 0, 0, 1, 0, 0),
+(64, '20120596', 'LUKMAN NULHAKIM', 0, 0, 0, 0, 0, 1, 0, 0),
+(65, '20120645', 'MOHAMAD IQBAL ALAMSYAH', 0, 0, 0, 0, 0, 1, 0, 0),
+(66, '20120674', 'MUHAMAD RAMADHANI FITRIYANTO', 0, 0, 0, 0, 0, 1, 0, 0),
+(67, '20120692', 'MUHAMMAD ALIF DARMADI', 0, 0, 0, 0, 0, 1, 0, 0),
+(68, '20120705', 'MUHAMMAD DAFFA ANTONO', 0, 0, 0, 0, 0, 1, 0, 0),
+(69, '20120716', 'MUHAMMAD FAHREZA ABDURRAZAQ', 0, 0, 0, 0, 0, 1, 0, 0),
+(70, '20120741', 'Muhammad Haekal Khowarizmi', 0, 0, 0, 0, 0, 1, 0, 0),
+(71, '20120789', 'MUHAMMAD SALMAN ALFARIZI', 0, 0, 0, 0, 0, 1, 0, 0),
+(72, '20120808', 'MUHAMMAD ZAIDAN AL MUZTABA', 0, 0, 0, 0, 0, 1, 0, 0),
+(73, '20120870', 'NOVIANDARU ADITYA RAMADHAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(74, '20120885', 'PANGIUTAN SIRAIT', 0, 0, 0, 0, 0, 1, 0, 0),
+(75, '20120887', 'PATHURAHMAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(76, '20120897', 'PUTRI GADING CEMPAKA', 0, 0, 0, 0, 0, 1, 0, 0),
+(77, '20120910', 'RAFI AUFAR RAHMAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(78, '20120917', 'RAFIAL KAHF', 0, 0, 0, 0, 0, 1, 0, 0),
+(79, '20120925', 'RAHADIAN YAMIN', 0, 0, 0, 0, 0, 1, 0, 0),
+(80, '20120970', 'RENALDI VERNANDES ERTA', 0, 0, 0, 0, 0, 1, 0, 0),
+(81, '21120012', 'RINO INDRA WICAKSONO', 0, 0, 0, 0, 0, 1, 0, 0),
+(82, '21120033', 'RIZKY ALFIAN ZAMAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(83, '21120078', 'SATRIYO PRIAMBODO', 0, 0, 0, 0, 0, 1, 0, 0),
+(84, '21120080', 'SEBASTIAN PANDU WIRATAMA', 0, 0, 0, 0, 0, 1, 0, 0),
+(85, '21120099', 'SHOLAHUDDIN YUSUF', 0, 0, 0, 0, 0, 1, 0, 0),
+(86, '21120108', 'SRI RATU PUTRI MAHARANI', 0, 0, 0, 0, 0, 1, 0, 0),
+(87, '21120130', 'TEO MIKAEL SIMBOLON', 0, 0, 0, 0, 0, 1, 0, 0),
+(88, '21120147', 'VANEZZA ROSSA HERPRIDJIHAN', 0, 0, 0, 0, 0, 1, 0, 0),
+(89, '21120158', 'WAHYU DWI ANANDA', 0, 0, 0, 0, 0, 1, 0, 0),
+(90, '21120161', 'WAJIHAN MUHAMMAD', 0, 0, 0, 0, 0, 1, 0, 0);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `main`
+--
+ALTER TABLE `main`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `main`
+--
+ALTER TABLE `main`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
